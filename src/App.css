@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+
+h1 {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(117, 14, 121);
+    flex-direction: column;
+    font-family: 'Shantell Sans', cursive;
+}
+
+h3 {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    color: rgb(117, 14, 121);
+    font-family: 'Dancing Script', cursive;
+}
+
+.pictures-container {
+    width: 33%;
+    padding: 15px;
+    min-width: 300px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.art-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.art-details {
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.art-image {
+    width: 60%;
+    font-size: 10px;
+}
+
+.App {
+    background: white;
+    box-sizing: border-box;
+    padding-left: 80px;
+    min-height: vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    font-size: calc(3px + 2vmin);
+    color: #282c34;
+}
+
+.page-container {
+    padding: 45px;
+    min-width: 300px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
